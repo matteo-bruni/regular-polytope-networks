@@ -9,7 +9,7 @@ export CUDA_DEVICE_ORDER=PCI_BUS_ID
 
 
 python3 timm_train.py \
-    /dune/DATASETS/ILSVRC2012 \
+    $1 \
     -b 128 \
     --model fixed_simplex_resnet50 \
     --lr 0.6 \
@@ -24,7 +24,7 @@ python3 timm_train.py \
     -j 12 \
     --amp \
     --dist-bn reduce \
-    --output ./output
+    --output $2
 
 
 
