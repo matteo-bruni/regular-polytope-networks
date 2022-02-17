@@ -1,10 +1,10 @@
 # Regular Polytope Networks
 
-This repo contains the code of "Regular Polytope Networks" (TNNL)
+This repo contains the code of "Regular Polytope Networks" (IEEE Transactions on Neural Networks and Learning Systems)
 
 Our code relies on the following impementations:
- - https://github.com/kuangliu/pytorch-cifar for Cifar
- - https://github.com/rwightman/pytorch-image-models timm for ImageNet experiments
+ - https://github.com/kuangliu/pytorch-cifar used for CIFAR training script
+ - https://github.com/rwightman/pytorch-image-models used for ImageNet training script
  
 
 Refer to our paper for more details: 
@@ -13,6 +13,10 @@ Refer to our paper for more details:
 
 
 ## Abstract
+
+<p align="center">
+  <img src="https://github.com/matteo-bruni/regular-polytope-networks/blob/main/img/intro_reponet.png?raw=true">
+</p>
 
 > Neural networks are widely used as a model for classification in a large variety of tasks. 
 Typically, a learnable transformation (i.e., the classifier) is placed at the end of such models 
