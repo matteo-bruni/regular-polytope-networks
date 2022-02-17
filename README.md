@@ -15,7 +15,7 @@ Refer to our paper for more details:
 ## Abstract
 
 <p align="center">
-  <img src="https://github.com/matteo-bruni/regular-polytope-networks/blob/main/img/intro_reponet.png?raw=true">
+  <img src="https://github.com/matteo-bruni/regular-polytope-networks/blob/main/img/intro_reponet.png?raw=true" style="max-width: 50%;">
 </p>
 
 > Neural networks are widely used as a model for classification in a large variety of tasks. 
