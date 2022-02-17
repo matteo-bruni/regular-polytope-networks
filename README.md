@@ -15,6 +15,7 @@ python cifar.py --prototype simplex --dataset cifar10 --net resnet50
 ## ImageNet
 
 we leverage the timm library available here: https://github.com/rwightman/pytorch-image-models
+
 ```
-pip install timm
+sh example_timm_imagenet.sh
 ```
